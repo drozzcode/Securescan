@@ -44,11 +44,7 @@ public class main {
                 System.out.println(suspectText);
                 break;
             case 2:
-                System.out.println("digite o endereço de e-mail:");
-                String emailurl = scanner.nextLine();
-                String padraogmail = ("@gmail.com");
-                boolean emailSuspeito = emailurl.contains(padraogmail);
-                System.out.println(emailSuspeito);
+
 
 
                 break;
