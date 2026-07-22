@@ -44,6 +44,7 @@ public class main {
                 System.out.println(suspectText);
                 break;
             case 2:
+                verifyemail(suspectText);
 
 
 
@@ -61,13 +62,16 @@ public class main {
     static Scanner sc = new Scanner(System.in);
 
 
-    public static int verifyemail() {
+    public static int verifyemail(String userMessage) {
 
         System.out.println("digite o endereço de e-mail:");
         String emailurl = sc.nextLine();
         String padraogmail = ("@gmail.com");
         boolean emailSuspeito = emailurl.contains(padraogmail);
         System.out.println(emailSuspeito);
+        if (emailSuspeito = true){
+
+        }
 
         return 0;
     }
