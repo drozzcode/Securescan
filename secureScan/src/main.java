@@ -146,7 +146,7 @@ public class main {
             for (String palavraTexto : listapalavras) {
                 palavraTexto = palavraTexto.replaceAll("[^a-zA-Z0-9]", "");
                 if (palavrasSuspeitas.contains(palavraTexto)) {
-                    wordcount = wordcount + 10;
+                    wordcount = wordcount + 15;
                 }
             }
 
